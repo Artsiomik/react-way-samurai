@@ -11,17 +11,9 @@ export const Myposts = () => {
             <Textarea/>
             <Button/>
             <div className={s.mypostsout}>
-                <Message/>
-                {/*<div className={s.messages}>*/}
-                {/*    <img className={s.avatar} src={Avatar} alt=""/>*/}
-                {/*    <div className={s.arrow}></div>*/}
-                {/*    <div className={s.tx}>It's our new program! Hey!</div>*/}
-                {/*</div>*/}
-                {/*<div className={s.messages}>*/}
-                {/*    <img className={s.avatar} src={Avatar} alt=""/>*/}
-                {/*    <div className={s.arrow}></div>*/}
-                {/*    <div className={s.tx}>Life is good! And live well!</div>*/}
-                {/*</div>*/}
+                <Message text={'Hey, why nobody love me?'}/>
+                <Message text={'It is our new program! Hey!'}/>
+                <Message text={'Life is good! And live well!'}/>
             </div>
         </div>
     )

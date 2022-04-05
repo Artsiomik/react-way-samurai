@@ -1,5 +1,5 @@
 import React from "react";
-// import Profile from '../../Images/Profile1.png';
+import Profile from "../../Images/Profile1.png";
 import Messages from '../../Images/messages1.jpg';
 import News from '../../Images/news1.jpg';
 import Music from '../../Images/music1.jpg';
@@ -12,23 +12,11 @@ export const SideBar = () => {
         <aside className={s.sidebar}>
             <nav className={s.menu}>
                 <ul className={s.list}>
-                    <SideBarItem/>
-                    {/*<li>*/}
-                    {/*    <img className="icon" src={Messages} alt=""/>*/}
-                    {/*    <a href="#" className="sidebar__link">Messages</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                    {/*    <img className="icon" src={News} alt=""/>*/}
-                    {/*    <a href="#" className="sidebar__link">News</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                    {/*    <img className="icon" src={Music} alt=""/>*/}
-                    {/*    <a href="#" className="sidebar__link">Music</a>*/}
-                    {/*</li>*/}
-                    {/*<li>*/}
-                    {/*    <img className="icon" src={Settings} alt=""/>*/}
-                    {/*    <a href="#" className="sidebar__link">Settings</a>*/}
-                    {/*</li>*/}
+                    <SideBarItem link={'Profile'} picture={Profile}/>
+                    <SideBarItem link={'Messages'} picture={Messages}/>
+                    <SideBarItem link={'News'} picture={News}/>
+                    <SideBarItem link={'Music'} picture={Music}/>
+                    <SideBarItem link={'Settings'} picture={Settings}/>
                 </ul>
             </nav>
         </aside>

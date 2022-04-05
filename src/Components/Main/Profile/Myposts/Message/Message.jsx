@@ -4,12 +4,12 @@ import {Avatar} from "./Avatar/Avatar";
 import {Arrow} from "./Arrow/Arrow";
 import {Text} from "./Text/Text";
 
-export const Message = () => {
+export const Message = (props) => {
     return (
         <div className={s.messages}>
             <Avatar/>
             <Arrow/>
-            <Text/>
+            <Text message={props.text}/>}
         </div>
     )
 }

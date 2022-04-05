@@ -1,12 +1,10 @@
 import React from "react";
-import Profile from '../../../../Images/Profile1.png';
-
 import s from './Icon.module.css'
 
-export const Icon = () => {
+export const Icon = (props) => {
     return (
         <>
-            <img className={s.icon} src={Profile} alt=""/>
+            <img className={s.icon} src={props.picture} alt=""/>
         </>
     )
 }

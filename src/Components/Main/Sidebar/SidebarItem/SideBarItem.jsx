@@ -2,11 +2,16 @@ import React from "react";
 import {Icon} from "./Icon/Icon";
 import {Link} from "./Link/Link";
 
-export const SideBarItem = () => {
+// type PropsType = {
+//     picture: string
+//     link: string
+// }
+
+export const SideBarItem = (props) => {
     return (
         <li>
-            <Icon/>
-            <Link/>
+            <Icon picture={props.picture}/>
+            <Link link={props.link}/>
         </li>
 
     )
