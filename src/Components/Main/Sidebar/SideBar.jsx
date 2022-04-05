@@ -1,10 +1,10 @@
 import React from "react";
-import Profile from '../Images/Profile1.png';
-import Messages from '../Images/messages1.jpg';
-import News from '../Images/news1.jpg';
-import Music from '../Images/music1.jpg';
-import Settings from '../Images/settings1.jpg';
-import '../CSS/SideBar.css'
+import Profile from '../../Images/Profile1.png';
+import Messages from '../../Images/messages1.jpg';
+import News from '../../Images/news1.jpg';
+import Music from '../../Images/music1.jpg';
+import Settings from '../../Images/settings1.jpg';
+import './SideBar.css'
 
 export const SideBar = () => {
   return (

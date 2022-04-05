@@ -1,7 +1,7 @@
 import React from "react";
-import '../CSS/Main.css';
-import {SideBar} from "./SideBar";
-import {Profile} from "./Profile";
+import './Main.css';
+import {SideBar} from "./Sidebar/SideBar";
+import {Profile} from "./Profile/Profile";
 
 export const Main = () => {
     return (

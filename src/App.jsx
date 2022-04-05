@@ -1,7 +1,7 @@
 import './App.css';
-import {Header} from "./Components/Component/Header";
-import {Main} from "./Components/Component/Main";
-import {Footer} from "./Components/Component/Footer";
+import {Header} from "./Components/Header/Header";
+import {Main} from "./Components/Main/Main";
+import {Footer} from "./Components/Footer/Footer";
 
 
 export const App = () => { // App это КОМПОНЕНТА которая возвращает рзметку jsx
