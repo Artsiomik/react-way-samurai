@@ -1,13 +1,12 @@
 import React from "react";
-import Profile from '../../../Images/Profile1.png';
-
-import s from './SideBarItem.module.css'
+import {Icon} from "./Icon/Icon";
+import {Link} from "./Link/Link";
 
 export const SideBarItem = () => {
     return (
         <li>
-            <img className={s.abgreyd} src={Profile} alt=""/>
-            <a href="#" className={s.link}>Profile</a>
+            <Icon/>
+            <Link/>
         </li>
 
     )

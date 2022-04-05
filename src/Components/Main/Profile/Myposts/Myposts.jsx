@@ -1,8 +1,7 @@
-import Avatar from "../../../Images/IMG_3192.JPG";
 import React from "react";
 import s from './Myposts.module.css';
 import {Textarea} from "./Textarea/Textarea";
-import {Button} from "./Button/Textarea";
+import {Button} from "./Button/Button";
 import {Message} from "./Message/Message";
 
 export const Myposts = () => {

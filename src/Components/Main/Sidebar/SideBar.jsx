@@ -14,19 +14,19 @@ export const SideBar = () => {
                 <ul className={s.list}>
                     <SideBarItem/>
                     {/*<li>*/}
-                    {/*    <img className="abgreyd" src={Messages} alt=""/>*/}
+                    {/*    <img className="icon" src={Messages} alt=""/>*/}
                     {/*    <a href="#" className="sidebar__link">Messages</a>*/}
                     {/*</li>*/}
                     {/*<li>*/}
-                    {/*    <img className="abgreyd" src={News} alt=""/>*/}
+                    {/*    <img className="icon" src={News} alt=""/>*/}
                     {/*    <a href="#" className="sidebar__link">News</a>*/}
                     {/*</li>*/}
                     {/*<li>*/}
-                    {/*    <img className="abgreyd" src={Music} alt=""/>*/}
+                    {/*    <img className="icon" src={Music} alt=""/>*/}
                     {/*    <a href="#" className="sidebar__link">Music</a>*/}
                     {/*</li>*/}
                     {/*<li>*/}
-                    {/*    <img className="abgreyd" src={Settings} alt=""/>*/}
+                    {/*    <img className="icon" src={Settings} alt=""/>*/}
                     {/*    <a href="#" className="sidebar__link">Settings</a>*/}
                     {/*</li>*/}
                 </ul>
