@@ -1,0 +1,37 @@
+.messages {
+    display: flex;
+    padding: 0 0 110px 0;
+    align-items: flex-start
+}
+
+.round {
+    border-radius: 10px;
+    width: 50px;
+    height: 60px;
+    box-shadow: 6px 5px 9px #000;
+    max-width: 600px;
+}
+
+.arrow {
+    margin: 10px -48px 0 40px;
+    width: 0;
+    height: 0;
+    border-top: 15px inset transparent;
+    border-right: 15px inset wheat;
+    border-bottom: 15px inset transparent;
+}
+
+.tx {
+    word-wrap: break-word;
+    width: 600px;
+    margin: 0 0 0 50px;
+    padding: 10px;
+    font-size: 24px;
+    color: #000;
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 4px 4px 5px #000;
+    border: 3px inset gold;
+    background-color: antiquewhite;
+}
+
