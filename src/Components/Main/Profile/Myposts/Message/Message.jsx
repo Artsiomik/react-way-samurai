@@ -1,13 +1,15 @@
 import React from "react";
 import s from "./Message.module.css";
-import Avatar from "../../../../Images/IMG_3192.JPG";
+import {Avatar} from "./Avatar/Avatar";
+import {Arrow} from "./Arrow/Arrow";
+import {Text} from "./Text/Text";
 
 export const Message = () => {
     return (
         <div className={s.messages}>
-            <img className={s.round} src={Avatar} alt=""/>
-            <div className={s.arrow}></div>
-            <div className={s.tx}>Hey, why nobody love me?</div>
+            <Avatar/>
+            <Arrow/>
+            <Text/>
         </div>
     )
 }

@@ -13,12 +13,12 @@ export const Myposts = () => {
             <div className={s.mypostsout}>
                 <Message/>
                 {/*<div className={s.messages}>*/}
-                {/*    <img className={s.round} src={Avatar} alt=""/>*/}
+                {/*    <img className={s.avatar} src={Avatar} alt=""/>*/}
                 {/*    <div className={s.arrow}></div>*/}
                 {/*    <div className={s.tx}>It's our new program! Hey!</div>*/}
                 {/*</div>*/}
                 {/*<div className={s.messages}>*/}
-                {/*    <img className={s.round} src={Avatar} alt=""/>*/}
+                {/*    <img className={s.avatar} src={Avatar} alt=""/>*/}
                 {/*    <div className={s.arrow}></div>*/}
                 {/*    <div className={s.tx}>Life is good! And live well!</div>*/}
                 {/*</div>*/}
