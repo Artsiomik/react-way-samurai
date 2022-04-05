@@ -1,36 +1,34 @@
 import Avatar from "../../../Images/IMG_3192.JPG";
 import React from "react";
-import './Myposts.css';
+import s from './Myposts.module.css';
 
 export const Myposts = () => {
-  return (
-      <div className="content__myposts">
-          <div className="myposts__title">My posts</div>
-          <div className="myposts__info">
-              <form action="">
-                  <textarea name="text">your news...</textarea>
-              </form>
-          </div>
-          <div className="button">
-              <button>Send</button>
-          </div>
-          <div className="content__mypostsout">
-              <div className="messages">
-                  <img className="round" src={Avatar} alt=""/>
-                  <div className="arrow"></div>
-                  <div className="tx">Hey, why nobody love me?</div>
-              </div>
-              <div className="messages">
-                  <img className="round" src={Avatar} alt=""/>
-                  <div className="arrow"></div>
-                  <div className="tx">It's our new program! Hey!</div>
-              </div>
-              <div className="messages">
-                  <img className="round" src={Avatar} alt=""/>
-                  <div className="arrow"></div>
-                  <div className="tx">Life is good! And live well!</div>
-              </div>
-          </div>
-      </div>
-  )
+    return (
+        <div className={s.myposts}>
+            <div className={s.title}>My posts</div>
+            <div>
+                <textarea name="text">your news...</textarea>
+            </div>
+            <div className={s.button}>
+                <button className={s.send}>Send</button>
+            </div>
+            <div className={s.mypostsout}>
+                <div className={s.messages}>
+                    <img className={s.round} src={Avatar} alt=""/>
+                    <div className={s.arrow}></div>
+                    <div className={s.tx}>Hey, why nobody love me?</div>
+                </div>
+                <div className={s.messages}>
+                    <img className={s.round} src={Avatar} alt=""/>
+                    <div className={s.arrow}></div>
+                    <div className={s.tx}>It's our new program! Hey!</div>
+                </div>
+                <div className={s.messages}>
+                    <img className={s.round} src={Avatar} alt=""/>
+                    <div className={s.arrow}></div>
+                    <div className={s.tx}>Life is good! And live well!</div>
+                </div>
+            </div>
+        </div>
+    )
 }

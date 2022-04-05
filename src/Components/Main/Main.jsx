@@ -1,11 +1,11 @@
 import React from "react";
-import './Main.css';
+import s from './Main.module.css';
 import {SideBar} from "./Sidebar/SideBar";
 import {Profile} from "./Profile/Profile";
 
 export const Main = () => {
     return (
-        <main className="main">
+        <main className={s.main}>
             <SideBar/>
             <Profile/>
         </main>

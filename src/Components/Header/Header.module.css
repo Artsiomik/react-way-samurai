@@ -10,12 +10,12 @@
     text-shadow: 1px 6px 5px;
     color: crimson;
 }
-.header__logo img {
+.logo img {
     margin: 12px 0 0 20px;
     width: 100px;
     height: 70px;
 }
-.logo__text {
+.text {
     margin: 20px 0;
     font-size: 40px;
     font-style: italic;
